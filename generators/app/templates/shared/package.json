@@ -3,7 +3,7 @@
   "version": "0.1.0",
    "private": true,
   "scripts": {
-    "start": "node .app//bin/www.js"
+    "start": "node app/bin/www.js"
   },
   "dependencies": {
     "body-parser": "^1.14.2",
