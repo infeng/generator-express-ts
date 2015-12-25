@@ -1,0 +1,43 @@
+{
+  "name": "generator-express-ts",
+  "version": "0.0.0",
+  "description": "Yeoman generator for creating an application,using express and typescript.",
+  "homepage": "https://github.com/CaryFFF/generator-express-ts",
+  "author": {
+    "name": "caryfff",
+    "email": "fzhao321@foxmail.com",
+    "url": "https://github.com/CaryFFF"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators\\index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "glob": "^6.0.2",
+    "mkdirp": "^0.5.1",
+    "underscore.string": "^3.2.2",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.0.0",
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "repository": "CaryFFF/generator-express-ts",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
