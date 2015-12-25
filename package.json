@@ -34,7 +34,7 @@
     "gulp-nsp": "^2.1.0",
     "gulp-coveralls": "^0.1.0"
   },
-  "repository": "CaryFFF/generator-express-ts",
+  "repository": "https://github.com/CaryFFF/generator-express-ts",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
