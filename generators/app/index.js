@@ -65,7 +65,8 @@ module.exports = yeoman.generators.Base.extend({
         name: 'viewEngine',
         message: 'Select a view engine to use',
         choices: [
-          'Jade'
+          'Jade',
+          'ejs'
         ],
         store: true
       }];
@@ -107,7 +108,7 @@ module.exports = yeoman.generators.Base.extend({
     },
     assetDirs: function() {
       mkdirp.sync('app/public');
-      mkdirp.sync('app/public/javacripts');
+      mkdirp.sync('app/public/javascripts');
       mkdirp.sync('app/public/stylesheets');
       mkdirp.sync('app/public/images');
     }

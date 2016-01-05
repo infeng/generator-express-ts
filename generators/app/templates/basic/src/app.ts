@@ -4,7 +4,8 @@ import * as favicon from 'serve-favicon';
 import * as logger from 'morgan';
 import * as cookieParser from 'cookie-parser';
 import * as bodyParser from 'body-parser';
-import index from './routes/index';
+import index from './routes/index';<% if(options.viewEngine == 'ejs'){ %>
+import * as ejs from 'ejs';<% } %>
 
 const app: express.Express = express();
 
@@ -12,8 +13,11 @@ const app: express.Express = express();
 app.set('dev','development');
 
 //view engine setup
+<% if(options.viewEngine == 'jade'){ %>app.set('views',path.join(__dirname,'views'));
+app.set('view engine','jade');<% }else if(options.viewEngine == 'ejs'){ %>
 app.set('views',path.join(__dirname,'views'));
-app.set('view engine','jade');
+app.engine('.html',ejs.renderFile);
+app.set('view engine','html');<% } %>
 
 //uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname,'public','favicon.ico')));
@@ -40,6 +44,7 @@ if (app.get('dev') === 'development'){
   app.use((err: Error,req,res,next) => {
     res.status(err['status'] || 500);
     res.render('error',{
+      title: 'error',
       message: err.message,
       error: err
     });
@@ -51,6 +56,7 @@ if (app.get('dev') === 'development'){
 app.use((err: Error,req,res,next) => {
   res.status(err['status'] || 500);
   res.render('error',{
+    title: 'error',
     message: err.message,
     error: {}
   });
