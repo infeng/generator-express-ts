@@ -35,14 +35,14 @@ Yeoman has a heart of gold. He&#39;s a person with feelings and opinions, but he
 
 ## License
 
-MIT © [caryfff](https://github.com/CaryFFF)
+MIT © [infeng](https://github.com/infeng)
 
 
 [npm-image]: https://badge.fury.io/js/generator-express-ts.svg
 [npm-url]: https://npmjs.org/package/generator-express-ts
-[travis-image]: https://travis-ci.org/CaryFFF/generator-express-ts.svg?branch=master
-[travis-url]: https://travis-ci.org/CaryFFF/generator-express-ts
-[daviddm-image]: https://david-dm.org/CaryFFF/generator-express-ts.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/CaryFFF/generator-express-ts
-[coveralls-image]: https://coveralls.io/repos/CaryFFF/generator-express-ts/badge.svg
-[coveralls-url]: https://coveralls.io/r/CaryFFF/generator-express-ts
+[travis-image]: https://travis-ci.org/infeng/generator-express-ts.svg?branch=master
+[travis-url]: https://travis-ci.org/infeng/generator-express-ts
+[daviddm-image]: https://david-dm.org/infeng/generator-express-ts.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/infeng/generator-express-ts
+[coveralls-image]: https://coveralls.io/repos/infeng/generator-express-ts/badge.svg
+[coveralls-url]: https://coveralls.io/r/infeng/generator-express-ts
