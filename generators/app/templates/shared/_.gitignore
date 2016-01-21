@@ -1,6 +1,4 @@
 node_modules/*
-app/**/*.map
-app/**/*.js
 typings/*
 npm-debug.log
 .settings/*
