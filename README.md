@@ -26,7 +26,7 @@ tsc
 
 After finish all,Run your project:
 ```
-node app/bin/www.js
+node app/bin/www.js --harmony
 ```
 
 ## Getting To Know Yeoman
