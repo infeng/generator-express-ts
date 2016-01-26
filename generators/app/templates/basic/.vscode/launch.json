@@ -11,7 +11,8 @@
 			"cwd": ".",
 			"runtimeExecutable": null,
 			"runtimeArgs": [
-				"--nolazy"
+				"--nolazy",
+        "--harmony"
 			],
 			"env": {
 				"NODE_ENV": "development"

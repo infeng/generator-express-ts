@@ -97,6 +97,11 @@ module.exports = yeoman.generators.Base.extend({
       this.sourceRoot(path.join(__dirname,'templates','basic'));
       this.template('.','.');
       
+      //.vscode
+      mkdirp.sync('.vscode');
+      this.sourceRoot(path.join(__dirname,'templates','basic', '.vscode'));
+      this.template('.','.vscode');      
+      
       //views
       var views = this.options.viewEngine;
       this.sourceRoot(path.join(__dirname,'templates','views',views));
