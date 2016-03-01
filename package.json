@@ -1,6 +1,6 @@
 {
   "name": "generator-express-ts",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Yeoman generator for creating an application,using express and typescript.",
   "homepage": "https://github.com/infeng/generator-express-ts",
   "author": {
@@ -18,23 +18,24 @@
     "typescript"
   ],
   "dependencies": {
-    "chalk": "^1.0.0",
-    "glob": "^6.0.2",
-    "mkdirp": "^0.5.1",
-    "underscore.string": "^3.2.2",
-    "yeoman-generator": "^0.21.1",
-    "yosay": "^1.0.2"
+    "chalk": "latest",
+    "glob": "latest",
+    "mkdirp": "latest",
+    "underscore.string": "latest",
+    "yeoman-generator": "latest",
+    "yosay": "latest"
   },
   "devDependencies": {
-    "yeoman-assert": "^2.0.0",
-    "gulp": "^3.6.0",
-    "gulp-eslint": "^1.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.9.0",
-    "gulp-mocha": "^2.0.0",
-    "gulp-plumber": "^1.0.0",
-    "gulp-nsp": "^2.1.0",
-    "gulp-coveralls": "^0.1.0"
+    "yeoman-assert": "latest",
+    "gulp": "latest",
+    "gulp-eslint": "latest",
+    "gulp-exclude-gitignore": "latest",
+    "gulp-istanbul": "latest",
+    "gulp-mocha": "latest",
+    "gulp-plumber": "latest",
+    "gulp-nsp": "latest",
+    "gulp-coveralls": "latest",
+    "yeoman-test": "latest"
   },
   "repository": "https://github.com/infeng/generator-express-ts",
   "scripts": {
