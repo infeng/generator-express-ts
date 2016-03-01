@@ -1,21 +1,16 @@
 'use strict';
 var yeoman = require('yeoman-generator');
-// var chalk = require('chalk');  - Unused for now
-// var yosay = require('yosay'); - Unused for now
 var path = require('path');
 var glob = require('glob');
 var mkdirp = require('mkdirp');
 var generators = require('yeoman-generator');
-var slugify = require('underscore.string/slugify');
 
-module.exports = yeoman.generators.Base.extend({
+module.exports = yeoman.Base.extend({
   constructor: function () {
     generators.Base.apply(this, arguments);
 
     // add option to skip install
     this.option('skip-install');
-
-    this.slugify = slugify;
 
   },
   prompting: {
