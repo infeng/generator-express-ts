@@ -1,9 +1,9 @@
 # generator-express-ts [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Yeoman generator for creating an application,using express and typescript.
+> Yeoman generator for creating an application using Express and TypeScript.
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-express-ts using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-express-ts using [npm](https://www.npmjs.com/) (we'll assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo typescript
@@ -16,7 +16,7 @@ Then generate your new project:
 yo express-ts
 ```
 
-After generating your proejct,cd into it,download d.ts and complie typescript files to javascript files:
+After generating your project, cd into it, install TypeScript definitions and compile TypeScript files into JavaScript files:
 ```
 tsd install
 ```
@@ -24,7 +24,7 @@ tsd install
 tsc
 ```
 
-After finish all,Run your project:
+After everything is finished, run your project:
 ```
 node app/bin/www.js --harmony
 ```
