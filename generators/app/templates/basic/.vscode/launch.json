@@ -5,10 +5,10 @@
 			"name": "Launch",
 			"type": "node",
 			"request": "launch",
-			"program": "./app/bin/www.js",
+			"program": "${workspaceRoot}/app/bin/www.js",
 			"stopOnEntry": false,
 			"args": [],
-			"cwd": ".",
+			"cwd": "${workspaceRoot}/",
 			"runtimeExecutable": null,
 			"runtimeArgs": [
 				"--nolazy",
@@ -19,7 +19,7 @@
 			},
 			"externalConsole": false,
 			"sourceMaps": true,
-			"outDir": "./app"
+			"outDir": "${workspaceRoot}/app"
 		},
 		{
 			"name": "Attach",
