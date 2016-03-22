@@ -7,4 +7,8 @@
     "outDir": "app",
     "rootDir": "src"
   }
+  "exclude":[
+    "typings/main",
+    "typings/main.d.ts"
+  ]
 }
