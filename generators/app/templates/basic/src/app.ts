@@ -11,9 +11,6 @@ import * as ejs from 'ejs';<% } %>
 
 const app: express.Express = express();
 
-//development
-app.set('dev','development');
-
 //view engine setup
 <% if(options.viewEngine == 'jade'){ %>app.set('views',path.join(__dirname,'views'));
 app.set('view engine','jade');<% }else if(options.viewEngine == 'ejs'){ %>
@@ -42,7 +39,7 @@ app.use((req,res,next) => {
 
 //development error handler
 //will print stacktrace
-if (app.get('dev') === 'development'){
+if(process.env.NODE_ENV === 'development') {
   app.use((err: Error,req,res,next) => {
     res.status(err['status'] || 500);
     res.render('error',{
@@ -50,7 +47,7 @@ if (app.get('dev') === 'development'){
       message: err.message,
       error: err
     });
-  });
+  });    
 }
 
 //production error handler
