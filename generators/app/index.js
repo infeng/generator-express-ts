@@ -24,7 +24,8 @@ module.exports = yeoman.Base.extend({
       var prompt = [{
         type: 'confirm',
         name: 'createDirectory',
-        message: 'Would you like to create a new directory for your project?'
+        message: 'Would you like to create a new directory for your project?',
+        default: true
       }];
 
       this.prompt(prompt, function (response) {
