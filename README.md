@@ -18,7 +18,7 @@ yo express-ts
 
 After generating your project, cd into it, install TypeScript definitions and compile TypeScript files into JavaScript files:
 ```
-typings install
+typings install -G
 ```
 ```
 tsc

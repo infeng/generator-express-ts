@@ -1,16 +1,18 @@
 {
   "name": "app",
   "version": false,
-  "ambientDependencies": {
-    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
-    "mime": "github:DefinitelyTyped/DefinitelyTyped/mime/mime.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
-    "serve-static": "github:DefinitelyTyped/DefinitelyTyped/serve-static/serve-static.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
-    "express": "github:DefinitelyTyped/DefinitelyTyped/express/express.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+  "globalDependencies": {
+    "body-parser": "github:DefinitelyTyped/DefinitelyTyped/body-parser/body-parser.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
     "cookie-parser": "github:DefinitelyTyped/DefinitelyTyped/cookie-parser/cookie-parser.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
     "debug": "github:DefinitelyTyped/DefinitelyTyped/debug/debug.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
-    "body-parser": "github:DefinitelyTyped/DefinitelyTyped/body-parser/body-parser.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160322035842",
+    "express-session": "registry:dt/express-session#0.0.0+20160331200931",
+    "mime": "github:DefinitelyTyped/DefinitelyTyped/mime/mime.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
     "morgan": "github:DefinitelyTyped/DefinitelyTyped/morgan/morgan.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
-    "serve-favicon": "github:DefinitelyTyped/DefinitelyTyped/serve-favicon/serve-favicon.d.ts#1da639a106527e0c4010b354a1efe52a3059a291"
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "serve-favicon": "github:DefinitelyTyped/DefinitelyTyped/serve-favicon/serve-favicon.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
+    "serve-static": "github:DefinitelyTyped/DefinitelyTyped/serve-static/serve-static.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
     <% if(options.viewEngine == 'ejs'){%>,"ejs": "registry:dt/ejs#0.0.0+20160317120654" <%}%>
-  }
+  } 
 }
