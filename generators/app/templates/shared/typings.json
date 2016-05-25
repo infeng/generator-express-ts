@@ -13,6 +13,6 @@
     "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
     "serve-favicon": "github:DefinitelyTyped/DefinitelyTyped/serve-favicon/serve-favicon.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
     "serve-static": "github:DefinitelyTyped/DefinitelyTyped/serve-static/serve-static.d.ts#1da639a106527e0c4010b354a1efe52a3059a291",
-    <% if(options.viewEngine == 'ejs'){%>,"ejs": "registry:dt/ejs#0.0.0+20160317120654" <%}%>
+    <% if(options.viewEngine == 'ejs'){%>"ejs": "registry:dt/ejs#0.0.0+20160317120654" <%}%>
   } 
 }
