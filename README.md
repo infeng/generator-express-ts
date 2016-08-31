@@ -1,4 +1,5 @@
-# generator-express-ts [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-express-ts 
+[![NPM version][npm-image]][npm-url] [![NPM downloads](https://img.shields.io/badge/download-100%2B%2Fmonth-green.svg?style=flat)](https://www.npmjs.com/package/generator-express-ts)
 > Yeoman generator for creating an application using Express and TypeScript.
 
 ## Installation
