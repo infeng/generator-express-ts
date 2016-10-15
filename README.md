@@ -7,7 +7,7 @@
 First, install [Yeoman](http://yeoman.io) and generator-express-ts using [npm](https://www.npmjs.com/) (we'll assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-npm install -g yo typescript typings
+npm install -g yo typescript
 npm install -g generator-express-ts
 ```
 
@@ -17,11 +17,8 @@ Then generate your new project:
 yo express-ts
 ```
 
-After generating your project, cd into it, install TypeScript definitions and compile TypeScript files into JavaScript files:
-```
-typings install -G
-```
-```
+After generating your project, cd into it, compile TypeScript files into JavaScript files:
+```bash
 tsc
 ```
 
