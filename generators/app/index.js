@@ -117,7 +117,10 @@ module.exports = yeoman.Base.extend({
 
   install: function () {
     if (!this.options['skip-install']) {
-      this.installDependencies();
+      this.installDependencies({
+        npm: true,
+        bower: false,
+      });
     }
   }
 });
