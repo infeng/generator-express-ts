@@ -12,8 +12,8 @@ import * as ejs from 'ejs';<% } %>
 const app: express.Express = express();
 
 //view engine setup
-<% if(options.viewEngine == 'jade'){ %>app.set('views',path.join(__dirname,'views'));
-app.set('view engine','jade');<% }else if(options.viewEngine == 'ejs'){ %>
+<% if(options.viewEngine == 'pug'){ %>app.set('views',path.join(__dirname,'views'));
+app.set('view engine','pug');<% }else if(options.viewEngine == 'ejs'){ %>
 app.set('views',path.join(__dirname,'views'));
 app.engine('.html',ejs.renderFile);
 app.set('view engine','html');<% } %>

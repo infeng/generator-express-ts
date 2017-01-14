@@ -61,7 +61,7 @@ module.exports = yeoman.Base.extend({
         name: 'viewEngine',
         message: 'Select a view engine to use',
         choices: [
-          'Jade',
+          'pug',
           'ejs'
         ],
         store: true
